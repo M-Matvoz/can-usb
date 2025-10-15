@@ -1,0 +1,3 @@
+[submodule "can-usb-hardware"]
+	path = can-usb-hardware
+	url = git@github.com:M-Matvoz/can-usb-hardware.git

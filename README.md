@@ -3,7 +3,7 @@
 Top-level repo for tracking the progress of the CAN-USB project, pre-configured with the correct CANBUS settings for any bitrate.
 
 ## CANUSB
-This project is based on the CANUSB protocol developed by LAWICEL AB. It has been tested with official LAWICEL libraries for Linux (slcan) and custom windows apps (see wincan repository) and extends upon it to support 2 CANBUS channels with the same pinout as the Vector VN16xx series. The caveat is that, because of the choice of microcontroller, only one CANBUS channel can be selected at once, hence I have extended upon the original standard in, what I call, the CANBUSx 1.0 protocol. 
+This project was originaly made as a part of the Superior Engineering Formula Student team of University of Ljubljana, and is now being developed independently. It is based on the CANUSB protocol developed by LAWICEL AB. It has been tested with official LAWICEL libraries for Linux (slcan) and custom windows apps (see wincan repository) and extends upon it to support 2 CANBUS channels with the same pinout as the Vector VN16xx series. The caveat is that, because of the choice of microcontroller, only one CANBUS channel can be selected at once, hence I have extended upon the original standard in, what I call, the CANBUSx 1.0 protocol. 
 
 ## CANBUSx 1.0
 The commands in this version of the protocol are exactly the same as the ones used in the standard protocol, however, I have added the following command:
